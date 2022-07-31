@@ -1,26 +1,44 @@
 body {
     text-align: center;
+    font-family: 'Segoe UI';
 }
 
 span {
     display: inline-block;
 }
 
-nav a {
+a {
+    color: #0067B8;
+}
+
+#navbar {
+    padding: 5px;
+}
+
+#navbar a {
     color: black;
     text-decoration: none;
     margin-inline: 20px;
 }
 
-nav a:hover {
+#navbar a:hover {
     text-decoration: underline;
 }
 
 #banner {
-    color: white;
     background-color: #0067B8;
-    padding: 1px;
-    font-family: 'Arial Narrow';
+    padding: 20px;
+}
+
+#banner a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#banner a:hover {
+    text-decoration: underline;
 }
 
 #fancy-image {
@@ -38,11 +56,48 @@ nav a:hover {
 .icon-link {
     margin: 30px;
     font-size: 20px;
-    font-family: 'Segoe UI';
-    font-weight: 650;
+    font-weight: 600;
 }
 
 i {
     font-size: 60px;
     padding: 20px;
+}
+
+.promotion-block-span {
+    vertical-align: top;
+    width: min-content;
+    margin-inline: 20px;
+    text-align: left;
+}
+
+.promotion-block-span div {
+    margin-top: 20px;
+}
+
+.promotion-block-span img {
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(240, 240, 240);
+    height: 110px;
+    width: auto;
+}
+
+.promotion-block-span h3 {
+    font-size: 30px;
+}
+
+.promotion-block-span p {
+    font-size: 20px;
+}
+
+.promotion-block-span div a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.promotion-block-span div a:hover {
+    text-decoration: underline;
 }
